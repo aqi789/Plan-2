@@ -1,0 +1,445 @@
+* {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    box-sizing: border-box;
+}
+
+.outer {
+    background-color: #fff;
+    border: 3px solid black;
+    height: 100%;
+    margin: 15px;
+}
+
+table td{ height: 14px !important;}
+
+.price_box { padding: 5px; margin: 3px; }
+
+.free_space {
+    background: #ffff99;
+    border: none !important;
+}
+
+table {
+    border-collapse: collapse;
+    font-size: 18px;
+    text-align: center;
+}
+
+td { 
+    border: 1px solid #000;
+    background-color: #fff;
+}
+
+td p {
+    font-size: 8px;
+    margin-bottom: 6px;
+}
+
+td h3 {
+    margin-top: 6px;
+    font-size: 12px;
+}
+
+h2 {
+    font-size: 14px;
+}
+ 
+.rowsz { width: 100% !important;
+    /* width: 96% !important;
+    margin-left: 2% !important;
+    margin-right: 2% !important; */
+} 
+.hiddencls{visibility: collapse;}
+.hiddencls td{border: none;}
+
+@media (max-width: 768px) and (min-width: 593px) { 
+   .navi_img{width: 100px !important;}
+    td p {
+        font-size: 5px !important;
+    }
+
+    td h3 {
+        font-size: 8px !important;
+    }
+
+    h2 {
+        font-size: 8px !important;
+    }
+
+    td {
+        padding: 4px !important;
+    }
+
+    .food h1 {
+        font-size: 14px !important;
+    }
+
+    .food {
+        height: 20vh !important;
+    }
+}
+
+@media (max-width: 593px) and (min-width: 468px) {
+    .price_box { padding: 4px; margin: 3px; }
+    .navi_img{width: 80px !important;}
+    td p {
+        font-size: 4px !important;
+    }
+
+    td h3 {
+        font-size: 6px !important;
+    }
+
+    h2 {
+        font-size: 6px !important;
+    }
+
+    td {
+        padding: 3px !important;
+    }
+
+    .food h1 {
+        font-size: 12px !important;
+    }
+
+    .food {
+        height: 15vh !important;
+    }
+}
+
+@media (max-width: 468px) and (min-width: 383px) {  
+.price_box { padding: 3px; margin: 3px; }
+   .navi_img{width: 70px !important;}
+    td p {
+        font-size: 3px !important;
+    }
+
+    td h3 {
+        font-size: 4px !important;
+    }
+
+    h2 {
+        font-size: 4px !important;
+    }
+
+    td {
+        padding: 2px !important;
+    }
+
+    .food h1 {
+        font-size: 10px !important;
+    }
+
+    .food {
+        height: 12vh !important;
+    }
+}
+
+@media (max-width: 383px) {
+    .price_box { padding: 3px; margin: 3px; }
+    .navi_img{width: 60px !important;}
+    td p {
+        font-size: 2px !important;
+    }
+
+    td h3 {
+        font-size: 3px !important;
+    }
+
+    h2 {
+        font-size: 3px !important;
+    }
+
+    td {
+        padding: 1px !important;
+    }
+
+    .food h1 {
+        font-size: 8px !important;
+    }
+
+    .food {
+        height: 10vh !important;
+    }
+}
+
+td .container {
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+    /* Adjust as needed */
+}
+
+.prayer_room h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100%;
+    background-color: rgb(52, 52, 52);
+    color: #fff;
+    margin: 0;
+    /* Remove default margins */
+}
+
+.prayer_room {
+    background: #faead7;
+    border: none;
+    padding: 0;
+    /* Remove padding from the table cell */
+}
+
+.vip_lounge h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100%;
+    background-color: rgb(123, 86, 86);
+    color: #fff;
+    margin: 0;
+    /* Remove default margins */
+}
+
+.vip_lounge {
+    background: #faead7;
+    border: none;
+    padding: 0;
+    /* Remove padding from the table cell */
+}
+
+.exit_hall h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100%;
+    background-color: #ff0000;
+    color: #fff;
+    margin: 0;
+    /* Remove default margins */
+    padding: 10px;
+    /* Add some padding if needed */
+}
+
+.exit_hall {
+    background: #faead7;
+    border: none;
+    padding: 0;
+    /* Remove padding from the table cell */
+}
+
+td[rowspan="2"] {
+    height: 100px;
+    padding: 10px;
+}
+
+td[colspan="2"] {
+    height: 100px;
+    padding: 10px;
+}
+
+.box1 td {
+    padding: 8px;
+}
+
+.box5 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 140px;
+}
+
+.table-container {
+    width: 100%;
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td {
+    padding: 10px;
+    text-align: center;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+}
+
+.flex-item {
+    margin: 0 18px;
+}
+
+.box2 {
+    margin-top: 30px !important;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.box2 table td {
+    padding: 7px;
+}
+
+.box6 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.box6 td {
+    padding: 27px 21px;
+}
+
+.box3 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 1px;
+    margin-bottom: 20px;
+}
+
+.box3 td {
+    padding: 10px;
+}
+
+.box7 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.box7 td {
+    padding: 10px 21px;
+}
+
+.box4 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.box4 td {
+    padding: 10px;
+}
+
+.box8 {
+    margin-top: 1px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.box8 td {
+    padding: 10px 21px;
+}
+
+.box9 {
+    margin-top: 130px;
+}
+
+.box9 td {
+    padding: 10px 21px;
+}
+
+.prayer-room {
+    background-color: #323232;
+    color: white;
+    padding: 50px 18px;
+    text-align: center;
+    margin-top: 8rem;
+}
+
+.vip-lounge {
+    background-color: rgb(157, 73, 73);
+    color: white;
+    padding: 50px 18px;
+    text-align: center;
+    margin-top: 8rem;
+}
+
+.bottom {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-table-container,
+.right-table-container {
+    margin: 10px;
+}
+
+.left-table-container td,
+.right-table-container td {
+    padding: 15px 25px !important;
+}
+
+table {
+    width: 100%;
+}
+
+td {
+    padding: 10px;
+    text-align: center;
+}
+
+.hall {
+    background-color: red;
+    width: 110px;
+    margin: 10px;
+    padding: 10px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hall i {
+    color: white;
+    font-size: 35px;
+}
+
+.arrows {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 5px;
+}
+
+h5 {
+    text-align: center;
+    margin-top: 5px;
+    color: white;
+}
+
+.blank {
+    background-color: black;
+    width: 80px;
+    height: 80px;
+    margin: 0 0 0 560px !important;
+}
+.food_1{width:33% !important;}
+.food_2{width:34% !important;text-align: center !important;}
+.food_3{width:33% !important; display: flex; justify-content: flex-end;}
+.navi_img{width: 140px;}
+.fa-arrow-down-long,.fa-arrow-up-long {
+    font-size: 50px;
+    color: red;
+    position: absolute; 
+    margin-left: -21px;
+        }
